@@ -11,8 +11,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
     - name: grassfedreeve
       url-base: https://github.com/grassfedreeve
   projects:
@@ -20,9 +18,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: main
     - name: zmk-keyboards-adept
       remote: grassfedreeve
       revision: main
